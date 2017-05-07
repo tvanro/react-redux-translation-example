@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Simple example project to demonstrate how to build a translation component with React and Redux",
   "scripts": {
-    "dev": "webpack-dev-server"
+    "dev": "webpack-dev-server",
+    "build": "NODE_ENV=production webpack -p"
   },
   "keywords": [
     "react",
