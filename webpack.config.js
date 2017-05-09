@@ -1,7 +1,7 @@
 const path = require('path');
 
-let devServerConfig = null;
-if (process.env.NODE_ENV === 'production') {
+let devServerConfig = {};
+if (process.env.NODE_ENV !== 'production') {
   devServerConfig = {
     contentBase: path.join(__dirname, "build"),
     port: 8080
