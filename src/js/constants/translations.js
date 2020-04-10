@@ -29,12 +29,21 @@ export const TRANSLATIONS = {
   zh_CN: {
     title: '多语言 React 申请',
     table_caption: '翻译实例',
-    table_th_name:'名称',
-    table_th_surname:'姓',
-    table_th_alias:'别名',
-    table_th_profession:'职业',
+    table_th_name: '名称',
+    table_th_surname: '姓',
+    table_th_alias: '别名',
+    table_th_profession: '职业',
     developer: '开发人员',
-  }
+  },
+  ru_RU: {
+    title: 'Мультиязычное приложение на React',
+    table_caption: 'Пример перевода',
+    table_th_name: 'Имя',
+    table_th_surname: 'Фамилия',
+    table_th_alias: 'Псевдоним',
+    table_th_profession: 'Профессия',
+    developer: 'Разработчик',
+  },
 };
 
 export const LANG_NAMES = [
@@ -42,4 +51,5 @@ export const LANG_NAMES = [
   { locale: 'fr_BE', name: 'FR' },
   { locale: 'nl_BE', name: 'NL' },
   { locale: 'zh_CN', name: '中文' },
+  { locale: 'ru_RU', name: 'RU' },
 ]
